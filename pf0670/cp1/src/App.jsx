@@ -1,5 +1,6 @@
 import React from "react"
 import { useState } from "react"
+import Produtos from "./components/produtos/Produtos"
 
 export default function App() {
 
@@ -70,9 +71,14 @@ export default function App() {
     return (
         <>
             <h1>CP1 de RWD 2º SEMESTRE</h1>
+            <Produtos produtos={produtos} />
         </>
     )
 }
+
+// 3 – Crie um componente chamado Produtos. ( 1,5 Pontos)
+// Esse componente deve receber através de props do componente App.jsx :
+// a) A lista de produtos, no caso o state.
 
 // 2 – No App.jsx crie a seguinte estrutura. ( 3,5 Pontos)
 // a) Adicione um fragmento.
