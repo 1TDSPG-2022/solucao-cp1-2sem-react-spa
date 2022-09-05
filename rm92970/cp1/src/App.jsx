@@ -1,6 +1,8 @@
 import React from "react"
 
 export default function App() {
+
+
     
     const listaProdutos = [
         {
@@ -40,5 +42,4 @@ export default function App() {
             <Produtos produtos={produtos}/>
         </>
     )
-    
 }
