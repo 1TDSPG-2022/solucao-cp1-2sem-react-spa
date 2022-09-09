@@ -11,7 +11,8 @@
 }
 
 .tblProdutos tr:nth-child(even){
-    background-color: #5e5d5d;
+    background-color: #5e5d5d
+    
 }
 
 .tblProdutos tr:hover{
