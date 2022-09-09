@@ -1,0 +1,45 @@
+$backcolor : #140e0e;
+$textcolor : #fff;
+$bordercolor: #ddd;
+$bckcolorhover: #a6c1c2;
+$bcknthchild: #5e5d5d;
+
+body {
+    background-color: $backcolor;
+    color: $textcolor;
+}
+
+div {
+    p{
+        color: #0000ff;
+    }
+}
+
+.tblProdutos{
+    font-family: Arial, Helvetica, sans-serif,Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100vw;
+}
+
+.tblProdutos{
+    th{
+        .tblProdutos{
+            th{
+                border: 2px solid $bordercolor;
+            }
+        }
+    }
+}
+
+
+.tblProdutos{
+    tr:nth-child(even){
+        background-color: $bcknthchild;
+    }
+}
+
+.tblProdutos{
+    tr:hover{
+        background-color: $bckcolorhover;
+    }
+}
