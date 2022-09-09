@@ -1,0 +1,27 @@
+@import '../components/produtos/thead';
+$back-color: #5e5d5d;
+$hover-color:#a6c1c2;
+$text-color: red;
+.tblProdutos{
+    font-family: Arial, Helvetica, sans-serif,Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100vw;
+    th,td{
+        border: 2px solid #ddd;
+        padding: 1vh 1vw;
+    }
+    tr{&:nth-child(even){
+        background-color: $back-color;}
+    }
+    tr{&:hover{
+        background-color: $hover-color ;
+    }}
+}
+
+.exercicio{
+    font-family: Arial, Helvetica, sans-serif;
+    color: $text-color;
+    p{
+        color: #000fff ;
+    }
+}

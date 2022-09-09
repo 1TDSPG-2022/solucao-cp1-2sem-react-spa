@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react"
-import Produtos from "./components/produtos/Produtos"
+import Produtos from "./components/produtos/Produtos"                   
 
 export default function App() {
 
@@ -71,6 +71,10 @@ export default function App() {
     return (
         <>
             <h1>CP1 de RWD 2º SEMESTRE</h1>
+            <div className="exercicio">
+                Escopo da div
+                <p>Escopo do paragrafo</p>
+            </div>
             <Produtos produtos={produtos} />
         </>
     )
