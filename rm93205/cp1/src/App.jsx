@@ -3,34 +3,37 @@ import { useState } from 'react'
 import Produtos from './components/produtos/Produtos'
 
 export default function App() {
-    const[produtos, setProdutos] = useState()
-
-    const listaProdutos = [
-        {nomeProduto : "Mouse Optico", 
-         qtd : 100, 
-         categoria : "informatica"
+    const[produtos, setProdutos] = useState([
+        {
+            nomeProduto: "Mouse Óptico",
+            qtd: 100,
+            categoria: "informatica"
         }
         ,
-        {nomeProduto : "Teclado", 
-         qtd : 203, 
-         categoria : "informatica"
+        {
+            nomeProduto: "Teclado",
+            qtd: 500,
+            categoria: "informatica"
         }
         ,
-        {nomeProduto : "Monitor", 
-         qtd : 36, 
-         categoria : "informatica"
+        {
+            nomeProduto: "Microfone Digital",
+            qtd: 2000,
+            categoria: "informatica"
         }
         ,
-        {nomeProduto : "MousePad", 
-         qtd : 301, 
-         categoria : "informatica"
+        {
+            nomeProduto: "Lâmpada Led 15w",
+            qtd: 250,
+            categoria: "eletrica"
         }
         ,
-        {nomeProduto : "Placa de video", 
-         qtd : 46, 
-         categoria : "informatica"
+        {
+            nomeProduto: "Lenço de Papel",
+            qtd: 10000,
+            categoria: "higiene"
         }
-    ]
+    ])
 
     return (
         <>
