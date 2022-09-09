@@ -33,6 +33,10 @@ export default function App() {
   return (
     <>
       <h1>CP1 de RWD 2º SEMESTRE</h1>
+      <div>
+        Escopo da Div
+        <p>Escopo do Paráagrafo</p>
+      </div>
       <Produtos listaDeProdutos={produtos} />
     </>
   )
