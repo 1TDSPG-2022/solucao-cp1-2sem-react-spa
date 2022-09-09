@@ -1,0 +1,25 @@
+@import 'thead';
+$hover-color : #ddd;
+$back-color : #5e5d5d;
+
+.tblProdutos{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100vw;
+
+    td,  th {
+        border: 2px solid $hover-color;
+        padding: 1vh 1vw;
+    }
+
+    tr{
+        
+        &:nth-child(even){
+            background-color: #5e5d5d;
+        }
+        &:hover{
+            background-color: #a6c1c2;
+        }
+    }
+
+}
