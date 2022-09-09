@@ -1,7 +1,9 @@
+@import 'thead';
 //CRIANDO VARIAVEIS
 $bgColor: #140e0e;
-$bgColorTable: #5e5d5d;
-$bgColorHover: #a6c1c2;
+$colorTable: #5e5d5d;
+$colorHover: #5e5d5d;
+$colorHoverEven: #a6c1c2;
 $textColor: #fff;
 $borda: #ddd;
 
@@ -25,10 +27,12 @@ body{
                 padding: 1vh 1vw;
         }
         tr{
-            &:hover{
-            background-color: $bgColorHover;
+            &:hover(even){
+            background-color: $colorHoverEven;
             }
-            background-color: $bgColorTable;
+            &:hover{
+            background-color: $colorTable;
+            }
         }
     }
 }

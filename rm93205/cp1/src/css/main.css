@@ -17,9 +17,9 @@ body .tblProdutos td, body .tblProdutos th {
   border: 2px solid #ddd;
   padding: 1vh 1vw;
 }
-body .tblProdutos tr {
-  background-color: #5e5d5d;
+body .tblProdutos tr:hover(even) {
+  background-color: #a6c1c2;
 }
 body .tblProdutos tr:hover {
-  background-color: #a6c1c2;
+  background-color: #5e5d5d;
 }/*# sourceMappingURL=main.css.map */
