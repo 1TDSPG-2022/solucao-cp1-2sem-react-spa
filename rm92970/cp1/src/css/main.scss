@@ -1,0 +1,13 @@
+$back-color : #202020;
+$color-font: #fff;
+
+body {
+    background-color: $back-color;
+    color: $color-font;
+}
+
+div {
+    p {
+        color: dodgerblue;
+    }
+}
