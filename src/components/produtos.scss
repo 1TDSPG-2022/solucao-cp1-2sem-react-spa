@@ -1,0 +1,24 @@
+$backcolor: #5e5d5d;
+$backcolor2: #a6c1c2;
+$font: Arial, Helvetica, sans-serif;
+
+
+.tblProdutos{
+    font-family: $font;
+    border-collapse: collapse;
+    width: 100vw;
+}
+
+.tblProdutos td, .tblProdutos th {
+    border: 2px solid #ddd;
+    padding: 1vh 1vw;
+
+}
+
+.tblProdutos tr:nth-child(even){
+    background-color: $backcolor;
+}
+
+.tblProdutos tr:hover{
+    background-color: $backcolor2;
+}
