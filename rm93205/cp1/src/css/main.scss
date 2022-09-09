@@ -1,5 +1,43 @@
+//CRIANDO VARIAVEIS
+$bgColor: #140e0e;
+$bgColorTable: #5e5d5d;
+$bgColorHover: #a6c1c2;
+$textColor: #fff;
+$borda: #ddd;
+
 body{
-    background-color: #140e0e;
-    color: #fff;
+    background-color: $bgColor;
+    color: $textColor;
+
+    div {
+        font-family: Arial, Helvetica, sans-serif;
+        p{
+            color: #0000ff;
+        }
+    }
+
+    .tblProdutos{
+        font-family: Arial, Helvetica, sans-serif,Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100vw;
+        td, th{
+                border: 2px solid $borda;
+                padding: 1vh 1vw;
+        }
+        tr{
+            &:hover{
+            background-color: $bgColorHover;
+            }
+            background-color: $bgColorTable;
+        }
+    }
 }
+
+
+
+
+
+
+
+
 

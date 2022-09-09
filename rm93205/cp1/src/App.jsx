@@ -38,6 +38,10 @@ export default function App() {
     return (
         <>
             <h1>CP1 de RWD 2 SEMESTRE</h1>
+            <div>
+                Escopo da div
+                <p>Escopo do paragrafo</p>
+            </div>
             <Produtos produtos={produtos}/>
         </>
     )
