@@ -1,0 +1,15 @@
+$back-color : #140e0e;
+$text-color: #ffff;
+$font: Arial, Helvetica, sans-serif;
+
+body {
+    background-color:$back-color;
+    color:$text-color;
+}
+
+div{
+    font-family: $font;
+ p {
+    color: #0000ff
+ }
+}
